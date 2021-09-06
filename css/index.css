@@ -1,0 +1,65 @@
+:root {
+  --main-text-color: #000000;
+  --grey-text-color: rgb(101, 101, 101);
+}
+@font-face {
+  font-family: Manrope;
+  src: url("../fonts/Manrope-Regular.ttf");
+}
+@font-face {
+  font-family: ManropeMedium;
+  src: url("../fonts/Manrope-Medium.ttf");
+}
+@font-face {
+  font-family: ManropeBold;
+  src: url("../fonts/Manrope-Bold.ttf");
+}
+@font-face {
+  font-family: ManropeSemiBold;
+  src: url("../fonts/Manrope-SemiBold.ttf");
+}
+@font-face {
+  font-family: ManropeBolder;
+  src: url("../fonts/Manrope-ExtraBold.ttf");
+}
+.btn-primary,
+.btn-primary:hover {
+  background-color: rgb(238, 124, 13);
+  border: none;
+  padding: 0.75rem 1.2rem;
+  color: var(--main-text-color);
+  font-family: ManropeBold;
+}
+.nav-link,
+.nav-link:hover {
+  margin-right: 0.75rem;
+  color: var(--grey-text-color);
+  font-family: ManropeMedium;
+}
+.heading {
+  font-size: 2.375rem;
+  font-family: ManropeBold;
+}
+.content {
+  color: var(--grey-text-color);
+  font-size: 1.275rem;
+  font-family: ManropeMedium;
+}
+.name {
+  color: var(--main-text-color);
+  font-family: ManropeBold;
+}
+.role {
+  color: var(--grey-text-color);
+  font-family: ManropeSemiBold;
+}
+#footer-text {
+  color: var(--grey-text-color);
+  font-size: 1.1rem;
+  font-family: ManropeMedium;
+}
+@media (max-width: 576px) {
+  .heading {
+    font-family: ManropeBolder;
+  }
+}
